@@ -44,11 +44,7 @@ document.getElementById("submit").onclick=function gameLoop()
     }
     else
     {
-        document.getElementById("msg").innerHTML="Congrats your guess was correct"+" "+" The secret number is"+" "+secretNumber+" "+"in this"+" "+Attempts+ "attempt";
-    }
-    
-    if(Attempts==4){
-        alert("Oops you have only 1 last chance to find the number");
+        document.getElementById("msg").innerHTML="Congrats your guess was correct"+" "+" The secret number is"+" "+secretNumber;
     }
     if(Attempts==maximumAttempts){
         alert("Sorry! You have reached your limit "+" "+"Secret number  is"+" "+secretNumber);

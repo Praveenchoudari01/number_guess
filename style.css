@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Poppins:wght@100&display=swap');
 body{
     background-color:  rgba(165, 138, 26, 0.948);
+    animation-name: bg;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bg{
+    80%{background-color: blueviolet;}
+    80%{background-color: rgb(95, 95, 240);}
 }
 .main{
     display: flex;
